@@ -1,5 +1,5 @@
-# COURSENAME
-This is the repository for the LinkedIn Learning course `[COURSENAME]`. The full course is available from [LinkedIn Learning](https://linkedin.com/learning/).
+# Web Scraping with Python
+This is the repository for the LinkedIn Learning course `Web Scraping with Python`. The full course is available from [LinkedIn Learning](https://linkedin.com/learning/).
 
 [![COURSENAME](COURSEIMAGE)](LICOURSEURL)
 
