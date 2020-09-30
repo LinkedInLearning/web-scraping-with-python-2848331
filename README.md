@@ -17,4 +17,3 @@ Some branches will have a beginning and an end state. These are marked with the 
 	- [list of requirements for course]
 2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
 3. [Course-specific instructions]
-
