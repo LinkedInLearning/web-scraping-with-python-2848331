@@ -11,6 +11,11 @@
 
 BOT_NAME = 'article_crawler'
 
+CLOSESPIDER_PAGECOUNT=10
+
+FEED_URI='articles.json'
+FEED_FORMAT='json'
+
 SPIDER_MODULES = ['article_crawler.spiders']
 NEWSPIDER_MODULE = 'article_crawler.spiders'
 
