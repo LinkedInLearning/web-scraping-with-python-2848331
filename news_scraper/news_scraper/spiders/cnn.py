@@ -7,7 +7,7 @@ class CnnSpider(CrawlSpider):
     name = 'cnn'
     allowed_domains = ['cnn.com']
     # Articles on the front page are dynamically loaded
-    start_urls = ['https://www.cnn.com/world/']
+    start_urls = ['https://www.cnn.com/africa']
     # /2020/08/28/weather/rapid-fire-disasters-in-coronavirus-pandemic-weir-wxc/index.html
     rules = [Rule(LinkExtractor(allow=r'\/2020\/[0-9][0-9]\/[0-9][0-9]\/[a-zA-Z\-]+\/[a-zA-Z\-]+\/index.html'), callback='parse_item', follow=True)]
     

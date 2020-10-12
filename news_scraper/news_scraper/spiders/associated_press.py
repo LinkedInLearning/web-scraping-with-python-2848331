@@ -8,7 +8,7 @@ class AssociatedPressSpider(CrawlSpider):
     name = 'associated_press'
     allowed_domains = ['apnews.com']
     start_urls = ['http://apnews.com/']
-    rules = [Rule(LinkExtractor(allow=r'\/[a-zA-Z0-9]{32}'), callback='parse_item', follow=True)]
+    rules = [Rule(LinkExtractor(allow=r'\/article\/[a-zA-Z\-]+\-[a-zA-Z0-9]{32}'), callback='parse_item', follow=True)]
 
     def parse_item(self, response):
         article = NewsArticle()

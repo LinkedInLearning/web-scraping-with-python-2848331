@@ -14,6 +14,10 @@ BOT_NAME = 'news_scraper'
 SPIDER_MODULES = ['news_scraper.spiders']
 NEWSPIDER_MODULE = 'news_scraper.spiders'
 
+CLOSESPIDER_PAGECOUNT=10
+
+FEED_URI='news_articles.json'
+FEED_FORMAT='json'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'news_scraper (+http://www.yourdomain.com)'
