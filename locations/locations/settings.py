@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
-import os
-
 SELENIUM_DRIVER_NAME = 'chrome'
-SELENIUM_DRIVER_EXECUTABLE_PATH = '/Users/rspecht/chromedriver'
+SELENIUM_DRIVER_EXECUTABLE_PATH = '/Users/rmitchell/chromedriver'
 SELENIUM_DRIVER_ARGUMENTS=[]
 #SELENIUM_DRIVER_ARGUMENTS=['-headless']  # '--headless' if using chrome instead of firefox
 
