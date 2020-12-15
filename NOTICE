@@ -6,7 +6,7 @@ See LICENSE in the project root for license information.
 
 ATTRIBUTIONS:
 scrapyd
-https://opensource.org/licenses/BSD-3-Clause
+https://github.com/scrapy/scrapyd/blob/master/LICENSE
 Copyright (c) 2020 Scrapy developers.
 License: Scrappy Project License (BSD 3-Clause style)
 
