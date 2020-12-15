@@ -8,6 +8,7 @@ ATTRIBUTIONS:
 scrapyd
 https://scrapyd.readthedocs.io/
 Copyright (c) 2020 Scrapy developers.
+License: Scrappy Project License (BSD 3-Clause style)
 
 Please note, this project may automatically load third party code from external 
 repositories (for example, NPM modules, Composer packages, or other dependencies). 
