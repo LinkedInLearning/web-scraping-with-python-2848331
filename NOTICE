@@ -6,10 +6,10 @@ See LICENSE in the project root for license information.
 
 ATTRIBUTIONS:
 scrapyd
-<https://github.com/scrapy/scrapyd/>
+https://github.com/scrapy/scrapyd/
 Copyright (c) 2020 Scrapy developers.
 License: Scrappy Project License (BSD 3-Clause style)
-<https://opensource.org/licenses/BSD-3-Clause>
+https://opensource.org/licenses/BSD-3-Clause
 
 Please note, this project may automatically load third party code from external 
 repositories (for example, NPM modules, Composer packages, or other dependencies). 
