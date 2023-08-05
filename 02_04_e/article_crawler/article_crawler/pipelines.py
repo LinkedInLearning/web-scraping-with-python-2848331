@@ -17,6 +17,6 @@ class CheckItemPipeline:
 
 class CleanDatePipeline:
     def process_item(self, article, spider):
-        article['lastUpdated'].replace('This page was last edited on', '').strip()
+        article['lastUpdated'] = article['lastUpdated'].replace('This page was last edited on', '').strip()
         article['lastUpdated'] = datetime.strptime(article['lastUpdated'], '%d %B %Y, at %H:%M')
         return article
